@@ -2,7 +2,7 @@
 <search>
   <entry>
     <title>Algorithm Design 14</title>
-    <url>/2023/12/29/Algorithm-Design-14/</url>
+    <url>/old-blogs/2023/12/29/Algorithm-Design-14/</url>
     <content><![CDATA[<h2 id="chapter-10-local-search">Chapter 10 Local Search</h2>
 <h3 id="game-theory-local-search">10.2 Game Theory &amp; Local
 Search</h3>
@@ -57,8 +57,8 @@ class="math inline">\((V&#39;,E&#39;)\)</span> that <span
 class="math inline">\(S\subseteq V&#39;\subseteq V\)</span>, and
 minimize the sum of cost of all edges in <span
 class="math inline">\(E&#39;\)</span>.</p>
-<p>Pollard Conjecture: <span class="math inline">\(\frac{\texttt{M
-Steriner T}}{\texttt{M Spanning T}}\ge \frac{\sqrt
+<p>Pollard Conjecture: <span class="math inline">\(\frac{\texttt{Minimum
+Steriner Tree}}{\texttt{Minimum Spanning Tree}}\ge \frac{\sqrt
 3}{2}\)</span></p></li>
 </ul></li>
 <li><p>THM: There is a game where the social cost of the unique NE is
@@ -215,7 +215,7 @@ e)\)</span>, <span class="math inline">\(A_{|V|+e_i,e_j}=\mathbf
 <li><p>Example 2: Consecutive "1" Matrix</p>
 <p><span class="math inline">\(A\in \mathbb R^{m\times n}\)</span>,
 <span class="math inline">\(\forall i\in [m]\)</span>, <span
-class="math inline">\(\exist 1\le l_i\le r_i\le n\)</span>, <span
+class="math inline">\(\exists 1\le l_i\le r_i\le n\)</span>, <span
 class="math inline">\(A_{i,j}=\mathbf 1(j\in [l_i,r_i])\)</span></p>
 <p>Remark: Interval Scheduling</p></li>
 <li><p>Example 3: Network Matrix</p>
@@ -261,7 +261,7 @@ TUM</p></li>
   </entry>
   <entry>
     <title>Algorithm Design 13</title>
-    <url>/2023/12/29/Algorithm-Design-13/</url>
+    <url>/old-blogs/2023/12/29/Algorithm-Design-13/</url>
     <content><![CDATA[<h2 id="chapter-9-randomized-algorithm">Chapter 9 Randomized
 Algorithm</h2>
 <h3 id="approximate-counting">9.4 Approximate Counting</h3>
@@ -285,7 +285,7 @@ class="math inline">\(\alpha=\frac{|G|}{|U|}\)</span>, so we need <span
 class="math inline">\(N\ge
 c\frac{1}{\epsilon^2\alpha}\log(\frac{1}{\delta})\)</span> samples, s.t.
 <span class="math display">\[
-\Pr\left\{\frac{\text{\# samples in }G}{N}\in (1\pm
+\Pr\left\{\frac{\#\text{ samples in }G}{N}\in (1\pm
 \epsilon)|G|\right\}\ge 1-\delta
 \]</span> Proof : Chernoff Bound</p></li>
 <li><p>Counting #DNF solutions</p>
@@ -509,7 +509,7 @@ mixing time <span class="math inline">\(\to\)</span> large</p></li>
   </entry>
   <entry>
     <title>Algorithm Design 12</title>
-    <url>/2023/12/29/Algorithm-Design-12/</url>
+    <url>/old-blogs/2023/12/29/Algorithm-Design-12/</url>
     <content><![CDATA[<h2 id="chapter-9-randomized-algorithm">Chapter 9 Randomized
 Algorithm</h2>
 <h3 id="hashing">9.3 Hashing</h3>
@@ -793,7 +793,7 @@ or not</li>
   </entry>
   <entry>
     <title>Algorithm Design 11</title>
-    <url>/2023/12/29/Algorithm-Design-11/</url>
+    <url>/old-blogs/2023/12/29/Algorithm-Design-11/</url>
     <content><![CDATA[<h2 id="chapter-8-network-flow">Chapter 8 Network Flow</h2>
 <h3 id="application">8.3 Application</h3>
 <h3 id="project-selection-problem">8.3.7 Project Selection Problem</h3>
@@ -1143,7 +1143,7 @@ class="math inline">\(h(x,i)=(h_1(x)+ih_2(x))\bmod N\)</span></li>
   </entry>
   <entry>
     <title>Algorithm Design 10</title>
-    <url>/2023/11/28/Algorithm-Design-10/</url>
+    <url>/old-blogs/2023/11/28/Algorithm-Design-10/</url>
     <content><![CDATA[<h2 id="chapter-8-network-flow">Chapter 8 Network Flow</h2>
 <h3 id="basic-definitions">8.1 Basic Definitions</h3>
 <ol type="1">
@@ -1487,7 +1487,7 @@ considering cut set , monotone .</p></li>
   </entry>
   <entry>
     <title>Algorithm Design 9</title>
-    <url>/2023/11/21/Algorithm-Design-9/</url>
+    <url>/old-blogs/2023/11/21/Algorithm-Design-9/</url>
     <content><![CDATA[<h2 id="chapter-7-divide-and-conquer">Chapter 7 Divide and Conquer</h2>
 <h3 id="merge-sort-inversions">7.1 Merge Sort &amp; #inversions</h3>
 <ol type="1">
@@ -1746,7 +1746,7 @@ therefore , <span class="math display">\[
   </entry>
   <entry>
     <title>Algorithm Design 8</title>
-    <url>/2023/11/21/Algorithm-Design-8/</url>
+    <url>/old-blogs/2023/11/21/Algorithm-Design-8/</url>
     <content><![CDATA[<h2 id="chapter-6-approximation-problem">Chapter 6 Approximation
 Problem</h2>
 <h3 id="knapsack">6.4 Knapsack</h3>
@@ -2022,7 +2022,7 @@ n\)</span></p></li>
   </entry>
   <entry>
     <title>Probability and Statistics 6</title>
-    <url>/2023/11/04/Probability-and-Statistics-6/</url>
+    <url>/old-blogs/2023/11/04/Probability-and-Statistics-6/</url>
     <content><![CDATA[<h2 id="chapter-2-laws-of-large-numbers">Chapter 2 Laws of Large
 Numbers</h2>
 <h3 id="conditional-expectation">2.2 Conditional Expectation</h3>
@@ -2527,7 +2527,7 @@ P(w:w\in A_n\text{ i.o.})=P(w:N(w)=\infty)=0
   </entry>
   <entry>
     <title>Probability and Statistics 5</title>
-    <url>/2023/11/03/Probability-and-Statistics-5/</url>
+    <url>/old-blogs/2023/11/03/Probability-and-Statistics-5/</url>
     <content><![CDATA[<h2 id="chapter-2-laws-of-large-numbers">Chapter 2 Laws of Large
 Numbers</h2>
 <h3 id="independence">2.1 Independence</h3>
@@ -3046,7 +3046,7 @@ class="math inline">\(G=\tilde G\)</span>.</p></li>
   </entry>
   <entry>
     <title>Probability and Statistics 4</title>
-    <url>/2023/11/03/Probability-and-Statistics-4/</url>
+    <url>/old-blogs/2023/11/03/Probability-and-Statistics-4/</url>
     <content><![CDATA[<h2 id="chapter-1-background-in-probability">Chapter 1 Background in
 Probability</h2>
 <h3 id="properties-of-integration">1.5 Properties of Integration</h3>
@@ -3777,7 +3777,7 @@ class="math inline">\(X\in \mathcal F,Y\in \mathcal G\)</span> , then
   </entry>
   <entry>
     <title>Algorithm Design 7</title>
-    <url>/2023/10/31/Algorithm-Design-7/</url>
+    <url>/old-blogs/2023/10/31/Algorithm-Design-7/</url>
     <content><![CDATA[<ol type="1">
 <li><p>NP-Hardness</p>
 <ul>
@@ -4089,7 +4089,7 @@ E\end{cases}\)</span></p>
   </entry>
   <entry>
     <title>Algorithm Design 6</title>
-    <url>/2023/10/31/Algorithm-Design-6/</url>
+    <url>/old-blogs/2023/10/31/Algorithm-Design-6/</url>
     <content><![CDATA[<h2 id="chapter-4-np-completeness">Chapter 4 NP Completeness</h2>
 <h3 id="other-problems-in-npc">4.4 Other Problems in NPC</h3>
 <p>Intuition : Find problems <span class="math inline">\(L\in
@@ -4511,7 +4511,7 @@ class="math inline">\(W=\sum\limits_{x=1}^{|X|}b^{x-1+|Y|+|Z|}+\sum\limits_{y=1}
   </entry>
   <entry>
     <title>Probability and Statistics 3</title>
-    <url>/2023/10/16/Probability-and-Statistics-3/</url>
+    <url>/old-blogs/2023/10/16/Probability-and-Statistics-3/</url>
     <content><![CDATA[<h2 id="chapter-1-background-in-probability">Chapter 1 Background in
 Probability</h2>
 <h3 id="integration">1.4 Integration</h3>
@@ -4871,7 +4871,7 @@ class="math display">\[
   </entry>
   <entry>
     <title>ZKP and MPC 3</title>
-    <url>/2023/10/16/ZKP-and-MPC-3/</url>
+    <url>/old-blogs/2023/10/16/ZKP-and-MPC-3/</url>
     <content><![CDATA[<h2 id="lec02-zero-knowledge-proof-under-composition">Lec02
 Zero-Knowledge Proof under Composition</h2>
 <h3 id="sequential-composition">2.3 Sequential Composition</h3>
@@ -5312,7 +5312,7 @@ class="math inline">\(m_{i,j},aux_{i,j}\)</span> in cycle---&gt;</td>
   </entry>
   <entry>
     <title>Algorithm Design 5</title>
-    <url>/2023/10/16/Algorithm-Design-5/</url>
+    <url>/old-blogs/2023/10/16/Algorithm-Design-5/</url>
     <content><![CDATA[<h2 id="chapter-3-dynamic-programming">Chapter 3 Dynamic
 Programming</h2>
 <h3 id="treewidth-cond.">3.4.2 Treewidth cond.</h3>
@@ -5623,7 +5623,7 @@ class="math inline">\(\pi\)</span> as assignment .</p></li>
   </entry>
   <entry>
     <title>ZKP and MPC 2</title>
-    <url>/2023/10/15/ZKP-and-MPC-2/</url>
+    <url>/old-blogs/2023/10/15/ZKP-and-MPC-2/</url>
     <content><![CDATA[<h2 id="lec02-zero-knowledge-proof-under-composition">Lec02
 Zero-Knowledge Proof under Composition</h2>
 <h3 id="review-of-interactive-proof">2.1 Review of Interactive
@@ -6140,7 +6140,7 @@ View_{V_i^*}^P(x)\)</span></p>
   </entry>
   <entry>
     <title>Algorithm Design 4</title>
-    <url>/2023/10/09/Algorithm-Design-4/</url>
+    <url>/old-blogs/2023/10/09/Algorithm-Design-4/</url>
     <content><![CDATA[<h2 id="chapter-2-greedy-algorithm">Chapter 2 Greedy Algorithm</h2>
 <h3 id="optimal-caching">2.7 Optimal Caching</h3>
 <ol type="1">
@@ -6477,7 +6477,7 @@ S&#39;\text{ on }S\cap S&#39;}\{opt(y,S&#39;)-w(S\cap S&#39;)\}
   </entry>
   <entry>
     <title>Probability and Statistics 2</title>
-    <url>/2023/10/08/Probability-and-Statistics-2/</url>
+    <url>/old-blogs/2023/10/08/Probability-and-Statistics-2/</url>
     <content><![CDATA[<h2 id="chapter-1-background-in-probability">Chapter 1 Background in
 Probability</h2>
 <h3 id="random-variables">1.2 Random Variables</h3>
@@ -6832,7 +6832,7 @@ B_j)+\sum_{j=0}^nb_j\sum_{i=0}^m \mu(A_i\cup B_j)\\
   </entry>
   <entry>
     <title>Probability and Statistics 1</title>
-    <url>/2023/10/08/Probability-and-Statistics-1/</url>
+    <url>/old-blogs/2023/10/08/Probability-and-Statistics-1/</url>
     <content><![CDATA[<h2 id="chapter-0">Chapter 0</h2>
 <ol type="1">
 <li><p>Categories</p>
@@ -7352,7 +7352,7 @@ class="math inline">\((\mathbb R,\mathcal R)\)</span> .</p></li>
   </entry>
   <entry>
     <title>答疑坊 线性代数 趣题若干</title>
-    <url>/2023/10/07/%E7%AD%94%E7%96%91%E5%9D%8A-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E8%B6%A3%E9%A2%98%E8%8B%A5%E5%B9%B2/</url>
+    <url>/old-blogs/2023/10/07/%E7%AD%94%E7%96%91%E5%9D%8A-%E7%BA%BF%E6%80%A7%E4%BB%A3%E6%95%B0-%E8%B6%A3%E9%A2%98%E8%8B%A5%E5%B9%B2/</url>
     <content><![CDATA[<h3 id="t1">T1</h3>
 <p>类型：行列式计算，加行列技巧</p>
 <h4 id="题目">题目</h4>
@@ -7379,7 +7379,7 @@ A_{ij}=\begin{cases}a_i+b_j+1&amp;i=j\\a_i+b_j\end{cases}
   </entry>
   <entry>
     <title>答疑坊 微积分 趣题若干</title>
-    <url>/2023/10/07/%E7%AD%94%E7%96%91%E5%9D%8A-%E5%BE%AE%E7%A7%AF%E5%88%86-%E8%B6%A3%E9%A2%98%E8%8B%A5%E5%B9%B2/</url>
+    <url>/old-blogs/2023/10/07/%E7%AD%94%E7%96%91%E5%9D%8A-%E5%BE%AE%E7%A7%AF%E5%88%86-%E8%B6%A3%E9%A2%98%E8%8B%A5%E5%B9%B2/</url>
     <content><![CDATA[<h3 id="p1">P1</h3>
 <p>类型：极限存在性</p>
 <h4 id="题目">题目</h4>
@@ -7454,7 +7454,7 @@ class="math inline">\(\prod_{j=0}^{k-1}(1-\frac{j}{n})&lt; 1\)</span>
   </entry>
   <entry>
     <title>答疑坊 程设/离散/DSA 趣题若干</title>
-    <url>/2023/10/07/%E7%AD%94%E7%96%91%E5%9D%8A-%E7%A8%8B%E8%AE%BE-DSA-%E8%B6%A3%E9%A2%98%E8%8B%A5%E5%B9%B2/</url>
+    <url>/old-blogs/2023/10/07/%E7%AD%94%E7%96%91%E5%9D%8A-%E7%A8%8B%E8%AE%BE-DSA-%E8%B6%A3%E9%A2%98%E8%8B%A5%E5%B9%B2/</url>
     <content><![CDATA[<h3 id="p1">P1</h3>
 <h4 id="问题描述">问题描述</h4>
 <p>输入 <span class="math inline">\(3n-1\)</span> 个数，其中 <span
@@ -7491,7 +7491,7 @@ class="math inline">\(sum\oplus sum=a\oplus a\oplus a\oplus a=a\)</span>
   </entry>
   <entry>
     <title>Algorithm Design 3</title>
-    <url>/2023/10/07/Algorithm-Design-3/</url>
+    <url>/old-blogs/2023/10/07/Algorithm-Design-3/</url>
     <content><![CDATA[<h2 id="chapter-2-greedy-algorithm">Chapter 2 Greedy Algorithm</h2>
 <h3 id="minimum-spanning-tree-undirected">2.3 Minimum Spanning Tree
 (undirected)</h3>
@@ -7807,7 +7807,7 @@ containing all letters.</p>
   </entry>
   <entry>
     <title>ZKP and MPC 1</title>
-    <url>/2023/10/06/ZKP-and_MPC-1/</url>
+    <url>/old-blogs/2023/10/06/ZKP-and_MPC-1/</url>
     <content><![CDATA[<h2 id="lec01-basic-definitions-and-examples-of-zkp">Lec01 Basic
 Definitions and Examples of ZKP</h2>
 <h3 id="basic-notations">1 Basic Notations</h3>
@@ -8422,7 +8422,7 @@ class="math inline">\(\pi_b=\pi_r\)</span> , get the view</li>
   </entry>
   <entry>
     <title>Algorithm Design 2</title>
-    <url>/2023/10/06/Algorithm-Design-2/</url>
+    <url>/old-blogs/2023/10/06/Algorithm-Design-2/</url>
     <content><![CDATA[<h3 id="dfs-application">1.3 dfs application</h3>
 <figure class="highlight cpp"><table><tr><td class="code"><pre><span class="line"><span class="function">function <span class="title">dfs</span><span class="params">(u)</span></span>&#123;</span><br><span class="line">    ++time;</span><br><span class="line">    discover[u]=time;</span><br><span class="line">    col[u]=grey;</span><br><span class="line">    <span class="keyword">for</span>(v in <span class="built_in">Neighbour</span>(u) )&#123;</span><br><span class="line">        <span class="keyword">if</span>(col[v]==white)&#123;</span><br><span class="line">            <span class="built_in">dfs</span>(v)</span><br><span class="line">        &#125;</span><br><span class="line">    &#125;</span><br><span class="line">    col[u]=black;</span><br><span class="line">    ++time;</span><br><span class="line">    finish[u]=time;</span><br><span class="line">&#125;</span><br></pre></td></tr></table></figure>
 <ol type="1">
@@ -8673,7 +8673,7 @@ class="math inline">\(dist(p)&lt;dist(p&#39;)=d(u)+l_e\)</span> , so
   </entry>
   <entry>
     <title>Algorithm Design 1</title>
-    <url>/2023/10/05/Algorithm-Design-1/</url>
+    <url>/old-blogs/2023/10/05/Algorithm-Design-1/</url>
     <content><![CDATA[<h2 id="chapter-0-logistics">Chapter 0 Logistics</h2>
 <p><strong>Content</strong> : discrete(combinatorial) algorithm ,
 Theoretical</p>
@@ -8845,7 +8845,7 @@ class="math inline">\(InDeg=0\)</span></p></li>
   </entry>
   <entry>
     <title>Hello World</title>
-    <url>/2023/10/05/hello-world/</url>
+    <url>/old-blogs/2023/10/05/hello-world/</url>
     <content><![CDATA[<p>Welcome to <a href="https://hexo.io/">Hexo</a>! This is your very
 first post. Check <a href="https://hexo.io/docs/">documentation</a> for
 more info. If you get any problems when using Hexo, you can find the
